@@ -32,7 +32,8 @@ background-color: #FFC85C;
 .card-intro {
     width: 60%;
     height: 100vh;
-  background-image: url(/photo/288-2889702_hoi-an-wallpaper-4k.jpg);
+ 
+background-image: url(../photo/288-2889702_hoi-an-wallpaper-4k.jpg);
   background-position: center;
   background-size: cover; 
   box-shadow: 0 0px 1.5em #c19640 inset;
@@ -308,7 +309,7 @@ height: 100%;
 
 }
 .c-1 {
-    background-image: url(/photo/thoi-trang-quy-ba-thap-nien-50-70.jpg);
+    background-image: url(../photo/thoi-trang-quy-ba-thap-nien-50-70.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -349,13 +350,13 @@ text-transform: uppercase;
     background-color: #8c3c3c;
 }
 .c-4 {
-    background-image: url(/photo//ẩm\ thực.jpg);
+    background-image: url(../photo//ẩm\ thực.jpg);
 
     background-position: center;
     background-size: cover;
 }
 .c-5 {
-    background-image: url(/photo//văn\ hóa.jpg);
+    background-image: url(../photo//văn\ hóa.jpg);
 background-position: center;
 background-size: cover;
 grid-column: 1/3;
@@ -471,7 +472,7 @@ width: 65%;
     height: 150px;
     background-size: cover;
     background-position: center;
-    background-image:url(/photo/thời\ trang.jpg) ;
+    background-image:url(../photo/thời\ trang.jpg) ;
 }
 .c-5 {
     position: relative;
@@ -592,19 +593,19 @@ transition: 0.5s linear;
 overflow: hidden;
 }
 .photo-1 {
-    background-image: url(/photo/doisong.jpg);
+    background-image: url(../photo/doisong.jpg);
     background-position: center;
     background-size: cover;
 transition: 0.5s linear;
 }
 .photo-2 {
-    background-image: url(/photo/dulich.jpg); 
+    background-image: url(../photo/dulich.jpg); 
     background-position: center;
     background-size: cover;
     transition: 0.5s linear;
 }
 .photo-3 {
-    background-image: url(/photo/man-nhan-dan-xe-tang-tien-vao-giai-phong-sai-gon-ngay-304.jpg);
+    background-image: url(../photo/man-nhan-dan-xe-tang-tien-vao-giai-phong-sai-gon-ngay-304.jpg);
     background-size: cover;
     background-position: center;
     transition: 0.5s linear;
@@ -753,14 +754,14 @@ grid-template-rows: 1fr 1fr;
     box-shadow: 0 0 1000px #BB371A inset;
 }
 .col-11 {
-background-image: url(/photo/amnhac.jpg);
+background-image: url(../photo/amnhac.jpg);
 background-position: center;
 background-size: cover;
 }
 .col-12 {
     background-position: center;
     background-size: cover;
-background-image: url(/photo/dsc0072-1527181452268482159680-15271817693171911343619.jpg);
+background-image: url(../photo/dsc0072-1527181452268482159680-15271817693171911343619.jpg);
 }
 .btn-up {
     height: 20vh;
@@ -963,7 +964,7 @@ transition: .5s linear;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  background-image: url(/photo/pngwing.com\ \(2\).png);
+  background-image: url(../photo/pngwing.com\ \(2\).png);
   background-position: center;
   background-size: cover;
   cursor: pointer;

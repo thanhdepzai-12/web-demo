@@ -3,19 +3,22 @@ const musicList = document.getElementById('music-list')
 const callApi = async function () {
     let res = await fetch(`https://api.apify.com/v2/key-value-stores/EJ3Ppyr2t73Ifit64/records/LATEST`)
     res = await res.json()
-    // console.log(res)
-    let newMusicData = res.songs.top100_VN[1]
-    let musicData = res.songs.top100_VN[2]
+    console.log(res)
+    let newMusicData = res.top100_VN[1]
+
+    
+    let musicData = res.top100_VN[2]
+    console.log(musicData)
     let musicHTML = '';
-    // console.log(musicData)
+  
     let musicItemHTML = '';
     
     for(let i=0 ; i<12; i++) {
  
-        song = musicData.songs[i]
+        song = newMusicData.songs[i]
       
        
-    
+
           
                musicItemHTML += `<div class="card" >
                <img src="${song.avatar}" class="card-img-top" alt="Pokemon">
@@ -183,7 +186,7 @@ BtnA.forEach((Btn , indexs )=> {
 
 
 }   
-
+callApi()
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
@@ -213,5 +216,5 @@ BtnMusic.forEach((Btns , indes )=> {
 
 
 
-callApi()
+
 

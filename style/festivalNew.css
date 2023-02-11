@@ -11,7 +11,7 @@
 header {
     width: 100%;
     height: 100vh;
-background: url(/photo/floor.jpg) center/contain;
+background: url(../photo/floor.jpg) center/contain;
 background-repeat: repeat;    
 display: flex;
     justify-content: space-between;
@@ -56,7 +56,7 @@ border-radius: 50%;
     height: 120%;
     transform: rotate(7deg);
     transform-origin: bottom;
-    background: url(/photo/floor.jpg) center/cover;
+    background: url(../photo/floor.jpg) center/cover;
 }
 .photoheader-fes {
 width: 60%;
@@ -206,21 +206,21 @@ width: 100%;
     font-size: 14px;
 }
 .main-secs2 .clip1{
-    background: url(https://static.tuoitre.vn/tto/i/s626/2016/03/15/7-1458007923.jpg);
+    background: url(http..s://static.tuoitre.vn/tto/i/s626/2016/03/15/7-1458007923.jpg);
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
 }
 
 .main-secs2 .clip2{
-    background: url(https://static.tuoitre.vn/tto/i/s626/2016/03/15/1-1458007856.jpg);
+    background: url(http..s://static.tuoitre.vn/tto/i/s626/2016/03/15/1-1458007856.jpg);
     background-size: cover;
     background-position: center;
     clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
 }
 
 .main-secs2 .clip3{
-    background: url(https://static.tuoitre.vn/tto/i/s626/2016/03/15/2-1458007866.jpg);
+    background: url(http..s://static.tuoitre.vn/tto/i/s626/2016/03/15/2-1458007866.jpg);
     background-size: cover;
     background-position: center;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
@@ -251,7 +251,7 @@ width: 100%;
 }
 .themnail-s-1 {
     font-size: 40px;
-    background: url(/photo/bienlehoi.jpg) bottom center/cover;
+    background: url(../photo/bienlehoi.jpg) bottom center/cover;
 }
 .themnail-s-2 {
     font-size: 40px;
@@ -277,7 +277,7 @@ width: 100%;
 .s-3 {
     width: 100%;
     height: 630px;
-    background: url(/photo/khaiman-1-16543141765491808243218.jpg);
+    background: url(../photo/khaiman-1-16543141765491808243218.jpg);
 }
 .main-secs3 {
     max-width: 1280px;

@@ -12,7 +12,7 @@
 header {
     width: 100%;
     height: 100vh;
-background: url(/photo/guitarheader.jpg) center/cover;
+background: url(../photo/guitarheader.jpg) center/cover;
 display: flex;
 }
 section {
@@ -51,7 +51,7 @@ section {
   margin-left: 20px;
   font-family: 'Anton', sans-serif;
   letter-spacing: 10px;
-  background: url(/photo/guitarheader.jpg) top center/cover;
+  background: url(../photo/guitarheader.jpg) top center/cover;
 background-clip: text;
 -webkit-background-clip: text;
  color: transparent;
@@ -215,23 +215,23 @@ letter-spacing: 0.5px;
 }
 @keyframes photochange {
     0%{
-        background: url(/photo/tcs.jpg)  center/cover;
+        background: url(../photo/tcs.jpg)  center/cover;
         transition: .5s linear;
     }
     25%{
-        background: url(/photo/tcsold.jpg)  center/cover;
+        background: url(../photo/tcsold.jpg)  center/cover;
         transition: .5s linear;
     }
     50%{
-        background: url(/photo/tcs.jpg)  center/cover;
+        background: url(../photo/tcs.jpg)  center/cover;
         transition: .5s linear;
     }
     75%{
-        background: url(/photo/tcsold.jpg)  center/cover;
+        background: url(../photo/tcsold.jpg)  center/cover;
         transition: .5s linear;
     }
     100%{
-        background: url(/photo/tcs.jpg)  center/cover;
+        background: url(../photo/tcs.jpg)  center/cover;
         transition: .5s linear;
     }
 }
@@ -416,7 +416,7 @@ font-size: 20px;
     margin-top: 50px;
     width: 100%;
     height: 415px;
-    background: url(/photo/maychoidiathan.jpg) center/cover;
+    background: url(../photo/maychoidiathan.jpg) center/cover;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -467,16 +467,16 @@ text-transform: capitalize;
     display: none;
 }
 .paneM1 , .M2{
-background:url(/photo/black-acoustic-guitar-black-background-music-instrument-hobby_175175-269.jpg) center/cover ;
+background:url(../photo/black-acoustic-guitar-black-background-music-instrument-hobby_175175-269.jpg) center/cover ;
 }
 .paneM2 , .M1{
-    background: url(/photo/drum.jpg) center/cover;
+    background: url(../photo/drum.jpg) center/cover;
 }
 .paneM3  ,.M3{
-    background: url(/photo/piano.jpg) center/cover;
+    background: url(../photo/piano.jpg) center/cover;
 }
 .paneM4 , .M4{
-    background:url(/photo/trumpet.jpg) center/cover ;
+    background:url(../photo/trumpet.jpg) center/cover ;
 }
 .musicactive {
     display: block;

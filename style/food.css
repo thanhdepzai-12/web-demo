@@ -11,7 +11,7 @@
 header {
     width: 100%;
     height: 100vh;
-background-image:url(/photo/photo-intro.jpg);
+background-image:url(../photo/photo-intro.jpg);
     background-position: center;
     background-size: cover;
 
@@ -19,7 +19,7 @@ background-image:url(/photo/photo-intro.jpg);
 .overlay-header {
     width: 100%;
     height: 100%;
-    background-color: rgb(0,0,0,0.3);
+    background-color: rgb(0,0,0,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ background-image:url(/photo/photo-intro.jpg);
 .logo-back-home {
     width: 120px;
     height: 120px;
- background: url(/photo/pngwing.com\ \(2\).png) center/cover;
+ background: url(../photo/pngwing.com\ \(2\).png) center/cover;
   
     border-radius: 50%;
     border: 1px solid black;
@@ -102,7 +102,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 position: absolute;
-background: url(/photo/pngaaa.com-8536678.png) center/cover;
+background: url(../photo/pngaaa.com-8536678.png) center/cover;
 }
 section {
     height: 630px;
@@ -230,7 +230,7 @@ font-family: 'Smooch Sans', sans-serif;
 .overlay-sec-2 {
     width: 100%;
     height: 100%;
- background: url(/photo/—Pngtree—cartoon\ food\ background\ texture_2287240.png);
+ background: url(../photo/—Pngtree—cartoon\ food\ background\ texture_2287240.png);
 
 }
 .maxwitdth-s-2 {
@@ -369,23 +369,23 @@ align-items: center;
 }
 @keyframes changephoto {
 0% {
- background: url(/photo/cákho.jpg ) center/cover;
+ background: url(../photo/cákho.jpg ) center/cover;
 transition: 0.5s linear; 
 }
 25%{
-    background: url(/photo/thitgaluoc.jpg ) center/cover;
+    background: url(../photo/thitgaluoc.jpg ) center/cover;
     transition: 0.5s linear;
 }
 50%{
-    background: url(/photo/thitrang.jpg ) center/cover;
+    background: url(../photo/thitrang.jpg ) center/cover;
     transition: 0.5s linear;
 }
 75%{
-    background: url(/photo/thitluoc.jpg ) center/cover;
+    background: url(../photo/thitluoc.jpg ) center/cover;
     transition: 0.5s linear;
 }
 100%{
-    background: url(/photo/muối\ vừng.jpg ) center/cover;
+    background: url(../photo/muối\ vừng.jpg ) center/cover;
     transition: 0.5s linear;
 }
 
