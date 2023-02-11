@@ -1,0 +1,906 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lalezar&family=Lobster&family=Ms+Madi&family=Open+Sans:wght@300&family=Playfair+Display+SC&family=Raleway:wght@100&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+
+}
+header {
+    width: 100%;
+    height: 100vh;
+background: url(/photo/guitarheader.jpg) center/cover;
+display: flex;
+}
+section {
+    width: 100%;
+    height: 630px;
+   
+}
+.mainheader-music {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.mainheader-music h1 {
+    color: white;
+    font-size: 120px;
+    margin-right: 20px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+}
+.mainheader-music-2 {
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+   
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.mainheader-music-2 h1  {
+
+  font-size: 120px;
+  margin-left: 20px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 10px;
+  background: url(/photo/guitarheader.jpg) top center/cover;
+background-clip: text;
+-webkit-background-clip: text;
+ color: transparent;
+ /* mix-blend-mode: overlay; */
+}
+.mainsec-2-music {
+    max-width: 1280px;
+    max-height: 630px;
+    position: relative;
+    margin: 0 auto;
+}
+.music-list {
+  width: 100%;
+    height: 100%;
+
+
+}
+.overlay-music {
+    left: 0;
+    position: fixed;
+    top: 0;
+    background-color:rgb(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 2;
+    transition: .5s linear;
+    animation: opacity .5s linear;
+}
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }to {
+        opacity: 1;
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.main-song {
+    position: fixed;
+    width: 80%;
+height: 550px;
+background-color: black;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display: none;
+    transition: .5s linear;
+    animation: opacity .5s linear;
+  flex-direction: column;
+    
+}
+.button-close {
+    height: 10%;
+    width: 100%;
+   background-color: #333;
+   padding: 0 20px;
+   
+}
+.mainsong {
+    width: 100%;
+height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.button-close {
+    color: white;
+    font-size: 50px;
+    transition: .5s linear;
+    z-index: 4;
+    font-family: 'Lalezar', cursive;
+}
+.button-close:hover {
+    cursor: pointer;
+    color: rgb(253, 79, 79);
+    transition: .5s linear;
+}
+.colum {
+    background-color: #333;
+}
+.card-body {
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  line-height: 1.5;
+}
+.card-body h5 {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+letter-spacing: 0.5px;
+}
+.card-body p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-img-top {
+    height: 150px;
+}
+.colum20 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.colum21 {
+    padding: 10px;
+
+}
+.colum21 h1 {
+    color: white;
+    text-shadow:  0 0 4px black;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+.colum20 img {
+    width: 300px;
+
+}
+.playsong {
+    background-color: transparent;
+
+}
+.w-100 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.w-100 h3 {
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+.footer-s-1 {
+    margin-top: 200px;
+    width: 100%;
+   transition: .5s linear;
+    height: 415px;
+    animation: photochange 20s infinite linear;
+    display: flex;
+}
+@keyframes photochange {
+    0%{
+        background: url(/photo/tcs.jpg)  center/cover;
+        transition: .5s linear;
+    }
+    25%{
+        background: url(/photo/tcsold.jpg)  center/cover;
+        transition: .5s linear;
+    }
+    50%{
+        background: url(/photo/tcs.jpg)  center/cover;
+        transition: .5s linear;
+    }
+    75%{
+        background: url(/photo/tcsold.jpg)  center/cover;
+        transition: .5s linear;
+    }
+    100%{
+        background: url(/photo/tcs.jpg)  center/cover;
+        transition: .5s linear;
+    }
+}
+
+.themnailtcs {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.themnailtcs h1 {
+ 
+ font-size: 60px; 
+    font-family: 'Anton', sans-serif;
+   color: #94B49F;
+   text-shadow: 0 0 3px black;
+}
+.themnailtcs h2 {
+    font-family: 'Ms Madi', cursive;
+   letter-spacing: 3px;
+   font-size: 40px;
+   color: #FCF8E8;
+}
+.themnailtcs p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #EFD345;
+    /* border-bottom: 3px solid #EFD345;*/
+    padding: 10px 0; 
+    border-top:  2px solid #EFD345;
+
+}
+.themnailtcs .para {
+    border-top: none;
+    border-bottom: 2px solid #EFD345;
+}
+.review-tcs {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5);
+
+}
+.review-tcs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FCF8E8;
+    padding: 20px;
+}
+.review-tcs h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+
+}
+.review-tcs p {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+.icon-star {
+
+    display: flex;
+    justify-content: center;
+ align-items: center;
+}
+.review-tcs i {
+    font-size: 20px;
+    color: #EFD345;
+}
+.review-tcs ul {
+    margin-top: 10px;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.s-2-m {
+    width: 100%;
+    height: 630px;
+}
+.mainsec-s-2-music {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+.main-music-play {
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.main-list-music {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+row-gap: 60px;
+padding: 20px;
+}
+.list-music {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    padding: 10px;
+}
+.active {
+    background-color: rgba(226, 226, 226, 0.422);
+    transition: 0.2s linear;
+    border-radius: 10px;
+    border: none;
+   
+}
+.music-play {
+    display: none;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s linear;
+}
+
+.Mactive {
+    display: flex;
+    transition: 0.5s linear;
+}
+.music-play img{
+height: 80%;
+transition: 0.5s linear;
+animation: apper .5s linear;
+}
+.music-play audio {
+    height: 10%;
+    width: 80%;
+    transition: 0.5s linear;
+    animation: apper .5s linear;
+}
+@keyframes apper {
+    from {
+opacity: 0;
+transition: 0.5s linear;
+    }
+    to {
+opacity: 1;
+transition: 0.5s linear;
+    }
+}
+.list-music {
+    position: relative;
+}
+.list-music .bx-headphone {
+    position: absolute;
+    top: 50%;
+    right: 20PX;
+    transform: translate(0,-50%);
+    font-size: 20px;
+}
+.list-music h2 {
+font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.list-music p {
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-s-2 {
+    margin-top: 50px;
+    width: 100%;
+    height: 415px;
+    background: url(/photo/maychoidiathan.jpg) center/cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.themnail-footers2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.8);
+    padding: 50px 0;
+}
+.themnail-footers2 h1{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.themnail-footers2 p {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #EFD345;
+text-transform: capitalize;
+    letter-spacing: 20px;
+}
+.s-3-m {
+    margin-top: 20px;
+    width: 100%;
+    height: 630px;
+    background-color: #111;
+}
+.main-musical {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+   position: relative;
+}
+.tabs-musical {
+    width: 100%;
+    height: 100%;
+}
+.musical-pane {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+.paneM1 , .M2{
+background:url(/photo/black-acoustic-guitar-black-background-music-instrument-hobby_175175-269.jpg) center/cover ;
+}
+.paneM2 , .M1{
+    background: url(/photo/drum.jpg) center/cover;
+}
+.paneM3  ,.M3{
+    background: url(/photo/piano.jpg) center/cover;
+}
+.paneM4 , .M4{
+    background:url(/photo/trumpet.jpg) center/cover ;
+}
+.musicactive {
+    display: block;
+    transition: .5s linear;
+}
+.tab-button-musical{
+    position: absolute;
+    z-index: 4;
+    bottom: 20px;
+    width: 80%;
+    padding: 0 20px;
+   left: 50%;
+   transform: translate(-50% ,0);
+    display: flex;
+    justify-content: space-between;
+}
+.detail-paneM {
+    position: absolute;
+    top: 0px;
+right: 0px;
+    width: 40%;
+    color: white;
+ background-color: #111;
+ padding: 10px;
+}
+.detail-paneM h1 {
+    color: #EFD345;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.detail-paneM p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.btnMusical {
+    width: 150px;
+    height: 150px;
+    transition: .5s linear;
+    box-shadow:  0 0 1.5em rgba(195, 195, 195, 0.674);
+}
+.activeBTN {
+    border: 2px solid #EFD345;
+    transition: .5s linear;
+}
+.themnail-s3-m {
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+    letter-spacing: 3px;
+}
+.s-1 {
+    height: 800px;
+}
+.themnail-sec1 {
+width: 100%;
+height: 207.5px;
+
+font-size: 70px;
+letter-spacing: 4px;
+color: white;
+font-family: 'Anton', sans-serif;
+animation: photochange 10s infinite linear;
+}
+.themnail-sec1 h3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+background: rgb(0,0,0,0.5);
+}
+
+.logo-fes img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border:1px solid black ;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+background-color: whitesmoke;
+}
+footer{
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    bottom: 0;
+    /* background: linear-gradient(to right, #00093c, #2d0b00); */
+    background-color: whitesmoke;
+    box-shadow: 0 0 50px #333 inset;
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+   
+}
+
+.row-footer{
+ max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col-footer{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col-footer:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.col-footer h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: #333;
+}
+
+.col-footer p{
+    color: #333;
+}
+
+.đt-footer{
+    width: fit-content;
+    margin: 20px 0;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+footer form{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #59886B;
+}
+
+form .bx-envelope{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #000;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .bx-right-arrow-alt{
+    font-size: 16px;
+    color: #333;
+}
+
+.social-icons .bxl-facebook, 
+.social-icons .bxl-twitter, 
+.social-icons .bxl-instagram, 
+.social-icons .bxl-gmail{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+    background: #fff;
+    margin-right: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #59886B;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+    color: #333;
+
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #8fd1a8;
+    color: #333;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.card {
+    width: 18rem;
+}
+.colum21 {
+    padding: 0;
+    background: url(https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/6/3/d/6/63d66cba99e32af4630120850c19bd53.jpg) center/cover;
+}
+.overlay-tcs-col21 {
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.8);
+    padding: 20px;
+}
+.overlay-tcs-col21 p {
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-song {
+    background-color: #333;
+}
+.colum22 {
+    display: none;
+}
+.mainsong {
+    grid-template-columns: 1fr 1fr;
+}
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #59886B;
+    border-radius: 3px;
+    position: absolute;
+    color: #333;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+@media only screen and (max-width: 849px) {
+    .card-img-top {
+        height: 80px;
+    }
+    .card-body h5 {
+        font-size: 5px;
+  
+    }
+    .card-body p {
+        font-size: 5px;
+    }
+    .card {
+        width: auto;
+    }
+    section {
+        height: 100vh;
+    }
+    .s-1 {
+        height: 200vh;
+    }
+    .review-tcs h1 {
+        font-size: 20px;
+    }
+    .review-tcs p {
+        font-size: 8px;
+    }
+  
+    .themnailtcs h2 {
+        font-size: 15px;
+    }
+    .themnailtcs h1 {
+        font-size: 25px;
+    }
+    .themnailtcs .para {
+        font-size: 8px;
+    }
+    .themnailtcs p {
+        font-size: 8px;
+    }
+    .themnail-s3-m {
+        font-size: 15px;
+    }
+    .main-list-music {
+        padding: 5px;
+        row-gap: 20px;
+    }
+    .music-play img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .list-music h2 {
+        font-size: 10px;
+    }
+    .list-music p {
+        font-size: 8px;
+    }
+    .list-music .bx-headphone {
+        font-size: 15px;
+        right: 2px;
+    }
+    .mainsec-s-2-music {
+        position: relative;
+    }
+    .music-play audio {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .main-list-music {
+        height: 80%;
+    }
+    .detail-paneM h1 {
+        font-size: 18px;
+    }
+    .detail-paneM p {
+        font-size: 8px;
+    }
+    .btnMusical {
+        width: 57px;
+        height: 57px;
+    }
+    .tab-button-musical {
+        padding: 0;
+    }
+    .row-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 8px;
+        row-gap: 8px;
+        padding: 5px;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .col-footer {
+        padding: 0;
+    }
+    .col-footer p {
+        font-size: 12px;
+    }
+   footer ul li {
+        font-size: 12px;
+    }
+    .review-tcs ul {
+        font-size:7px;
+    }
+    .themnail-sec1 h3 {
+        font-size: 50px;
+    }
+    .mainheader-music-2 h1  , .mainheader-music h1{
+        font-size: 50px;
+    }
+    .logo-fes img {
+        width: 70px;
+        height: 70px;
+    }
+    .mainsong {
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-song {
+        width: 100%;
+        background: #333;
+    }
+    .colum20 {
+        padding: 5px;
+    }
+    .colum21 h1 {
+        font-size: 20px;
+    }
+    .colum21 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .overlay-tcs-col21 p {
+        font-size: 6px;
+    }
+}
